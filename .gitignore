@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+
+.ipynb_checkpoints/
+.DS_Store
+
+# Do not publish the raw dataset
+data/raw/*.csv
+!data/raw/.gitkeep
